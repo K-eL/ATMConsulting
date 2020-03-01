@@ -2,6 +2,7 @@ package com.thorschmidt.curso.atmconsulting.ui.about;
 
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -24,7 +25,7 @@ public class AboutFragment extends Fragment {
 
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         //return inflater.inflate(R.layout.fragment_about, container, false);
@@ -39,7 +40,7 @@ public class AboutFragment extends Fragment {
                         "search for quality.")
                 // Contact
                 .addGroup("Contact us")
-                .addEmail("email", "Send an e-mail")
+                .addEmail("@string/data_email", "Send an e-mail")
                 .addWebsite("www.google.com","Access our website")
                 // Social Media
                 .addGroup("Social Media")
