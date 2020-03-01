@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         //Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(image));
         //Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(address));
         Intent intent = new Intent(Intent.ACTION_SEND);
-        intent.putExtra(Intent.EXTRA_EMAIL,new String[]{"service@atmconsulting.com","client@atmconsulting.com"});
+        intent.putExtra(Intent.EXTRA_EMAIL,new String[]{"email","email"});
         intent.putExtra(Intent.EXTRA_SUBJECT, "App Contact");
         intent.putExtra(Intent.EXTRA_TEXT, "Automatic Message");
 

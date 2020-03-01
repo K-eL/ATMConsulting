@@ -39,7 +39,7 @@ public class AboutFragment extends Fragment {
                         "search for quality.")
                 // Contact
                 .addGroup("Contact us")
-                .addEmail("administration@atmconsulting.com", "Send an e-mail")
+                .addEmail("email", "Send an e-mail")
                 .addWebsite("www.google.com","Access our website")
                 // Social Media
                 .addGroup("Social Media")
